@@ -171,6 +171,7 @@ static uint forcemousemod = ShiftMask;
 /*
  * Internal mouse shortcuts.
  * Beware that overloading Button1 will disable the selection.
+ * Button2: Click with the mouse wheel! For pasting!
  */
 const unsigned int mousescrollincrement = 3;
 static MouseShortcut mshortcuts[] = {
